@@ -1,0 +1,28 @@
+.title{
+    text-align:center;
+}
+.progress-bar{
+    width:800px;
+    margin:20px auto;
+}
+.progress-bar .bar-wrap{
+    width:700px;
+    border:1px solid #ccc;
+    margin:20px 50px;
+    padding:50px;
+}
+.progress-bar .bar-wrap .bar{
+    height:14px;
+    width:80%;
+    border:1px solid #ccc;
+    border-right:none;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+.progress-bar .bar-wrap .bar span{
+    display:block;
+    float:left;
+    height:14px;
+    border-right:1px solid #ccc;
+    box-sizing:border-box;
+}
